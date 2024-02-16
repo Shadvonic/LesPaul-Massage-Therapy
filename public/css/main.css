@@ -1,0 +1,329 @@
+html {
+    font-family: Arial, sans-serif; /* Specify a fallback font family */
+    color: #0F1035; /* Text color */
+}
+
+body {
+   
+    min-height: 100vh;
+    margin: 0; /* Remove default margin */
+    color: #0F1035; /* Text color */
+}
+
+/*  custom button */
+/* Dark primary button */
+.btn.btn-primary.btn-lg {
+   
+    background-color: #7FC7D9; /* Change background color on hover */
+    color: #0F1035; /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+    border-color: black;
+}
+
+.btn.btn-primary.btn-lg:hover {
+    background-color: #365486; /* Background color */
+    color: #DCF2F1; /* Text color */
+}
+
+/* Light primary button */
+.btn.btn-primary {
+    background-color: #7FC7D9; /* Background color */
+    color: #0F1035; /* Text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+    border-color: #365486;
+}
+
+.btn.btn-primary:hover {
+    background-color: #DCF2F1; /* Change background color on hover */
+    color: #365486; /* Change text color on hover */
+}
+
+.btn.btn-outline-primary {
+    border-color: #365486; /* Adjust border color */
+    color: #365486; /* Text color */
+}
+
+.btn.btn-outline-primary:hover {
+    background-color: #DCF2F1; /* Change background color on hover */
+    color: #365486; /* Change text color on hover */
+    border-color: #7FC7D9; /* Adjust border color on hover */
+}
+
+
+
+/* Navbar styles */
+.navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 15px;
+  }
+  
+
+.navbar-nav .nav-link {
+    color: #0F1035; /* Navbar link color */
+    text-decoration: none; /* Remove default underline */
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.dropdown-menu .dropdown-item {
+    color: #0F1035; /* Dropdown link color */
+    text-decoration: none; /* Remove default underline */
+    
+}
+
+/* Show dropdown menu on hover */
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Dropdown menu items */
+
+  .dropdown-item {
+    color: #365486 !important; /* Text color */
+  }
+  
+  /* Hover effect */
+  .dropdown-item:hover {
+    background-color: #DCF2F1 !important;
+    color:  #365486 !important;
+  }
+  
+
+/* Main Banner Info styles */
+.banner {
+    background-image: url('/public/images/banner-img.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0; /* Adjust padding as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #DCF2F1; /* Text color in the banner */
+}
+
+.banner-content {
+    padding-top: 20px; /* Adjusted top padding */
+    margin-top: 0; /* Removed top margin */
+}
+
+.banner-content h6 {
+    margin-top: 0; /* Pin to the top of the container */
+    font-size: 1.2em;
+    color: #7FC7D9; /* Color for company name */
+}
+
+.banner-content h1 {
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    margin-bottom: 30px;
+    font-size: 1.2em; /* Adjusted font size */
+}
+
+.banner-content .btn {
+    background-color: #7FC7D9; /* Button background color */
+    border-color: #7FC7D9; /* Button border color */
+    color: #0F1035; /* Button text color */
+}
+
+
+
+
+ /* Custom CSS for our-services section */
+ .our-services {
+    background-color: #DCF2F1; /* Background color */
+    color: #365486; /* Text color */
+  }
+
+
+  .our-services .card {
+    background-color: #fff; /* Card background color */
+    border: none; /* Remove card border */
+    border-radius: 10px; /* Adjust card border radius */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow to card */
+    margin-bottom: 2px; /* Adjust the margin bottom to reduce the gap */
+  }
+
+  .our-services .card-body {
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding to the card body */
+  }
+
+  .our-services .card-text {
+    text-align: center; /* Justify text */
+  }
+
+
+  .card-title {
+    color: #365486; /* Title color */
+  }
+
+  .card-text {
+    color: #365486; /* Text color */
+  }
+
+
+  .text-body-secondary {
+    color: #0F1035; /* Secondary text color */
+  }
+
+
+/* Booking section */
+.full-screen-image {
+    position: relative;
+    height: 100vh;
+    background-image: url('/images/book-appt-banner.jpg');
+    width: 1920px;
+    height: 1080px;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 16, 53, 0.5); /* Adjust the opacity as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay .container {
+    max-width: 600px;
+    padding: 20px;
+    color: white;
+}
+
+.overlay h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.overlay p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.overlay .btn {
+    font-size: 1.2em;
+}
+
+
+
+/* Contact  Section */
+
+.contact-info {
+    background-color: #DCF2F1; /* Background color */
+  }
+  
+  .text-body-emphasis {
+    color: #365486; /* Primary text color */
+    font-weight: bold;
+  }
+  
+  .text-body-secondary {
+    color: #0F1035; /* Secondary text color */
+    font-size: 16px;
+  }
+  
+
+/* Location Section  */
+
+.map-section {
+    position: relative;
+    height: 400px; /* Adjust the height as needed */
+    margin-top: 50px; /* Adjust the margin as needed */
+}
+
+.map-container {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Benefits */ 
+/* CSS styles */
+.benefits-section {
+    background-color: #F8F9FA; /* Background color */
+    color: #365486; /* Text color */
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .benefits-section h2 {
+    font-size: 2em;
+  }
+  
+  .benefits-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .benefits-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .benefits-section ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #365486;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #2A3F6C;
+  }
+  
+
+
+/* Footer */
+.bottom {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Distribute items evenly */
+}
+
+.footer-bottom {
+    background-color: white; /* Footer background color */
+    color: #0F1035; /* Footer text color */
+    padding: 85px; /* Adjust padding as needed */
+}
+
+
+.footer-social a {
+    color: #0F1035; /* Social media icon color */
+    margin-left: 10px; /* Adjust spacing between icons */
+}
+
+.footer-bottom nav {
+    width: 100%; /* Ensure footer spans full width */
+}
+
+
